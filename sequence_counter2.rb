@@ -3,7 +3,7 @@
 
 seq_size = (ARGV[1] || 4).to_i
 start = Time.now
-dict = ARGV[0] 
+dict = ARGV[0]
 words = File.readlines(dict)
 sequences = Hash.new(0)
 i = 0
